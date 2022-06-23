@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(243, 229, 229);
+}
+
+.logo{
+    display: flex;
+    padding-left: 3em;
+}
+
+.logo i{
+    font-size: 2em;
+    color: aqua;
+}
+
+.logo h1{
+    font-size: 1.5em;
+    font-family:'poppins',serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+nav ul{
+    display: flex;
+    margin-top: 0.6em;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 1em;
+    font-family:'poppins',serif;
+    color: black;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.aba{
+    background-color: rgb(52, 204, 204) transparent;
+    margin-right: 4em;
+    border-style: solid;
+    color: rgb(41, 232, 232);
+    padding-top: 10px;
+    padding-bottom: 0.8em;
+}
+
+.aba a{
+    color: rgb(45, 199, 199);
+    padding-top: 5px;
+    font-size: 0.9em;
+}
+
+a:hover{
+    color: orangered;
+    transition: 400ms;
+}
+
+section{
+    margin-top: 7em;
+    text-align: center;  
+}
+
+section h3{
+    font-family: monospace;
+    font-size: 11px;
+    letter-spacing: 4px;
+}
+
+section h1{
+    font-size: 2.4em;
+    font-family:'poppins',serif;
+    margin-top: 1em;
+}
+
+section p{
+    font-size: 2.4em;
+    font-family:'poppins',serif;
+    margin-top: 1em;
+    
+}
+
+section p{
+    font-family: 'poppins',serif;
+    font-size: 12px;  
+    margin-top: 4px;
+    margin-bottom: 7px;  
+}
+
+:placeholder-shown{
+    font-family:'poppins',serif;
+    padding-left: 7px;
+}
+
+input{
+    padding: 10px 0;
+    background-color: white;
+    border-style: none;
+}
+
+button{
+    padding: 10px 0;
+    width: 8em;
+    background-color: orangered;
+    border-style: none;   
+}
+
+button a{
+     text-decoration: none;
+     font-family:'poppins',serif ;
+     color: white;
+
+}
+
+.general{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 5em;
+    margin-right: 6em;
+    margin-bottom: 3em;
+    margin-top: 3.6em;
+}
+
+.console{
+    display: flex;
+
+}
+
+.console i{
+    font-size: 2em;
+    color: aqua;
+    margin-right: 0.5em;
+
+}
+
+.consit h4{
+    font-family:'poppins',serif;
+}
+
+.ai{
+    padding: 10px 0;
+    display: none;
+}
+
+.ai i{
+    color: orangered;
+}
+
+.ai a{
+    font-size: 2em;
+}
+@media (max-width:768px) {
+    .ai{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul{
+        display:block;
+        border-style: solid;
+        margin-left: 5em;
+        color: rgb(42, 202, 255);
+    }
+    
+    nav ul li{
+        padding: 10px 0;
+        text-align: center;
+        margin-left: 5em;
+        padding-right: 3em;
+    }
+    .aba{
+        display: none;
+    }
+
+    .general{
+        display: block;
+        padding: 10px 0;
+    }
+}
+
+
+
